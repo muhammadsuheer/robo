@@ -1,0 +1,23 @@
+::-webkit-scrollbar-track
+{
+       background-color: #2d9b7a;    
+}
+::-webkit-scrollbar
+{
+    width: 20px;  
+}
+::-webkit-scrollbar-thumb
+{
+    border-radius: 20px;
+    background-image: -webkit-gradient(linear,right bottom,right top,
+    color-stop(0.60, rgb(70, 127, 173)),
+    color-stop(0.90, rgb(4, 65, 70)))
+}
+::-webkit-scrollbar-corner{
+    /*Sel 6 -Properties*/
+    background-color: rgb(54, 83, 146);
+}
+  ::-webkit-resizer::window-inactive{
+    /*Sel 7 -Properties*/
+    background-color: rgb(11, 77, 5);
+}
