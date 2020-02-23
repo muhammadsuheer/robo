@@ -9,7 +9,7 @@ const Card = ({name,id,email,address,username}) => {
      
       <img id='image'   src={`https://robohash.org/${id}`} alt="robo"/>
       <div>
-     <h2>{name}</h2>
+     <h2 style={{ color: '#7ed5e7'}}>{name}</h2>
     <p>{email}</p>
  </div>
 <div id='overlay'>
