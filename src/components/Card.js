@@ -7,7 +7,7 @@ const Card = ({name,id,email,address,username}) => {
         
  <div id='container'  className='tc dib br3 ma3 pa1 grow shadow-5'>
      
-      <img id='image'   src={`https://robohash.org/${id}`} alt="robo"/>
+      <img id='image'   src={`https://robohash.org/?set=set2/${id}`} alt="robo"/>
       <div>
      <h2 style={{ color: '#7ed5e7'}}>{name}</h2>
     <p>{email}</p>
