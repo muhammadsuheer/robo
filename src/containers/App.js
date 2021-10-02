@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Cardlist from '../components/Cardlist';
 import Searchbox from '../components/Searchbox';
 import Scroll from '../components/Scroll';
-import Footer from './components/Footer';
+import Footer from '../components/Footer';
 
 import { arra } from './arra'
 class  App extends Component {

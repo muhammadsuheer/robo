@@ -1,57 +1,25 @@
-import React from "react";
-import {
-  Box,
-  Container,
-  Row,
-  Column,
-  FooterLink,
-  Heading,
-} from "./FooterStyles";
-  
+import React from 'react'
+import './footer.css';
+
 const Footer = () => {
-  return (
-    <Box>
-      <h1 style={{ color: "green", 
-                   textAlign: "center", 
-                   marginTop: "-50px" }}>
-                       Made with Love by MuhammadSuheer
-      </h1>
-      <Container>
-          <Row>
-          <Column>
-            <Heading>Social Media</Heading>
-            <FooterLink href="#">
-              <i className="fab fa-facebook-f">
-                <span style={{ marginLeft: "10px" }}>
-                  Facebook
-                </span>
-              </i>
-            </FooterLink>
-            <FooterLink href="#">
-              <i className="fab fa-instagram">
-                <span style={{ marginLeft: "10px" }}>
-                  Instagram
-                </span>
-              </i>
-            </FooterLink>
-            <FooterLink href="#">
-              <i className="fab fa-twitter">
-                <span style={{ marginLeft: "10px" }}>
-                  Twitter
-                </span>
-              </i>
-            </FooterLink>
-            <FooterLink href="#">
-              <i className="fab fa-youtube">
-                <span style={{ marginLeft: "10px" }}>
-                  Youtube
-                </span>
-              </i>
-            </FooterLink>
-          </Column>
-        </Row>
-      </Container>
-    </Box>
-  );
-};
+    return (
+        <div className='foter' id='footer' >
+
+
+
+            <div className='touch' >
+                <h2 className='touchtext' >Don’t be a stranger</h2>
+                <h3 className='touchtext2' >just say hello.</h3>
+                <p style={{ width: '100%' }} >Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+                <p className='mt2'  >Feel like talking ?</p>
+
+            </div>
+
+
+
+
+        </div>
+    )
+}
+
 export default Footer;

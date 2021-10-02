@@ -1,0 +1,91 @@
+.foter{
+  
+  margin-bottom: 0;
+      color: #fff;
+      background-color: rgb(228, 234, 240);
+      flex-direction: row;
+      display: flex;
+      padding-top: 15vh;
+     
+     height: 100vh;
+
+}
+      @media screen and (max-width: 800px) {
+.foter{         
+      flex-direction: column;
+     padding: 1%;
+      height: 650px;
+
+       }}
+  
+
+      .touch{
+padding-left: 5%;
+
+
+      }
+      .touchtext {
+           
+          color: rgb(255, 255, 255); 
+          font-size: 3em;
+      }
+          @media screen and (max-width: 768px) {
+       .touchtext{ 
+  
+            font-size: 1.5em;
+              
+             }
+         
+      }  
+      .touchtext2{
+          color: rgb(255, 255, 255); 
+          font-size: 2em;
+      }
+          @media screen and (max-width: 768px) {
+       .touchtext2{ 
+  
+            font-size: 1.4em;
+              
+             }
+      }
+    span{
+      color: rgb(255, 255, 255); 
+      font-size: 1.5em;
+    }
+     
+  
+      .container {
+      
+           margin-bottom: 0;
+      }
+.row{
+  padding-top: 11%;
+}
+  
+  @media screen and (max-width: 768px) {
+  .row{      
+  
+    padding-top: 4%;
+    
+   }
+
+}
+      .picl{
+         
+        width: 90%;
+          margin-bottom: 0%;
+          height: 80%;
+      }
+        @media screen and (max-width: 768px) {
+       .picl{ 
+          width: 80%;
+          margin-bottom: 0%;
+          height: 30%;
+        margin-left: 11%;
+          
+          
+         }
+      } 
+
+  
+  
